@@ -1,9 +1,10 @@
 from random import randint
 
 class Player(object):
-	def __init__(self, role, letter):
+	def __init__(self, role, letter, num):
 		self.role = role
 		self.letter = letter
+		self.num = num
 	
 	# Intended for the CPU
 	def cpu_calculate(self, array, choices):
